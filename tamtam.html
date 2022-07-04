@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TamTam</title>
+    <link rel="stylesheet" href="tamtam.css">
+</head>
+<body>
+    <section id="header">
+      
+        <div class="text-main">
+            <h1>
+                TAM TAM Music Festival <br>9.7.-17.7.2022 <br> Sućuraj, Hvar
+    
+            </h1>
+            <span class="square"></span>
+            <p>
+                Sunce, more, dobra glazba i ležanje u hamocku. Bliži nam se ljeto, vidimo se i ove godine?
+            </p>  
+            <a href="https://www.entrio.hr/event/tam-tam-music-festival-2022-10637?fbclid=IwAR0lGgXz9i6Ei-sZyJ_qlcZxLLtPTzBhyuDzozcW5yjak_EB62jIGF-4xqk" class="btn"><span></span>
+                Vidimo se!
+            </a>
+            <div class="lines">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+            </div>         
+        </div>
+        
+               
+    </section>
+    <!--Navigation-->
+    <nav id="navigation">
+        <ul>
+            <li><a href="#" >HOME</a></li>
+            <li><a href="#onama" >O NAMA</a></li>
+            <li><a href="#lineup" >LINEUP</a></li>
+            <li><a href="#radionice" >RADIONICE</a></li>
+            <li><a href="https://www.entrio.hr/event/tam-tam-music-festival-2022-10637?fbclid=IwAR0lGgXz9i6Ei-sZyJ_qlcZxLLtPTzBhyuDzozcW5yjak_EB62jIGF-4xqk" >ULAZNICE</a></li>
+            <li><a href="#kamp" >KAMP</a></li>
+            <li><a href="#upute" >KAKO DO NAS?</a></li>
+        </ul>        
+    </nav>
+    <div id="menu">
+        <img src="images/menu.png" id="MenuBtn">
+    </div>
+
+    <script>
+    var menu = document.getElementById("menu")
+    var navigation = document.getElementById("navigation")
+    var MenuBtn = document.getElementById("MenuBtn")
+
+    navigation.style.right == "-250px";
+
+    menu.onclick = function(){
+        if(navigation.style.right == "-250px"){
+            navigation.style.right = "0";
+            MenuBtn.src = "images/close.png";
+        }
+        else {
+            navigation.style.right = "-250px";
+            MenuBtn.src = "images/menu.png";
+        }
+    }
+    </script>
+
+    <!--O NAMA-->
+    <section id="onama">
+        <div class="left-col">
+            <img src="images/onama.jpg">
+        </div>
+        <div class="right-col">
+            <div class="about-text">
+                <h1>O nama</h1>
+                <span class="square"></span>
+                <p>
+                    Tijekom proteklih godina TAM TAM Music Festival je izrastao od druženja glazbenika do događaja koji ima reputaciju kao jedan od najboljih malih festivala u regiji. Postao je kultni festival među zaljubljenicima u glazbu iz Hrvatske i regije.                </p><br>
+                <div class="lines">
+                    <div class="line-1"></div><br>
+                    <div class="line-2"></div><br>
+                    <div class="line-3"></div> 
+                </div><br>  
+                
+                <h2>
+                    „TAM TAM je oduvijek bio popularna destinacija za ljubitelje nezavisne glazbe u regiji i više smo nego sretni što smo postali malo indie središte tijekom ovih 10 dana ljeta. Ideja nam je od početka bila biti podrška glazbenicima. Uz lokalne koncertne prostore, nezavisni festivali su zapravo inkubatori za nove talente. Uvijek se trudimo imati veliki postotak novih i mladih umjetnika, a TAM TAM je često mjesto gdje oni stječu svoje prvo festivalsko iskustvo sviranja pred većom publikom.”                </h2><br>
+                <h3>----Juraj Vujnović</h3>
+            </div>
+        </div>        
+    </section>
+
+    <!--ŠTO NUDIMO-->
+    <section id="ponuda">
+      
+        <div class="icons">
+            <img src="images/ponuda.png" class="ponuda-logo">
+            
+            <div class="koncerti">
+                <img src="images/lineup1.jpg">
+                <h2>Koncerti</h2>
+                <p>Ove godine na TAM TAM Music Festivalu <br>svira preko 20 izvođača i izvođačica. </p>
+            </div>
+            <div class="yoga">
+                <img src="images/yoga.jpg">
+                <h2>Tam YOGA Flow</h2>
+                <p>Neizostavni dio TAM TAM Festivala. <br>Ilijana, certificirana učiteljica joge i profesorica glazbe, <br> često u svojim satovima kombinira glazbu, dah, <br> pokret, meditaciju i relaksaciju.</p>
+            </div>
+            <div class="radionice">
+                <img src="images/radionice3.jpg">
+                <h2>Radionice</h2>
+                <p>TAM TAM Music Festival obiluje i brojnim radionicama, <br> koje su često besplatne.</p>
+            </div>
+            <div class="tetoviranje">
+                <img src="images/tatto.jpg">
+                <h2>Tetoviranje</h2>
+                <p>Ove godine se opet tetoviramo! Ovaj put će vas bockati hvaranka Yvonne (Tatuirovke) i Marko (Blanana), mladi tattoo umjetnici koji već godinama tetoviraju u Zagrebu. </p>
+            </div>
+            <div class="cirkus">
+                <img src="images/cirkus.jpg">
+                <h2>Cirkus</h2>
+                <p>Sretni smo što će po Sućurju za vrijeme festivala cirkusirati Loop Cirkus! Ovaj duo čine Diana Fureš i Aleksandar Đikić. </p>
+            </div>
+            </div>
+        <div class="trial">
+            <div class="lines-3">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+            </div>  
+            <a href="https://www.entrio.hr/event/tam-tam-music-festival-2022-10637?fbclid=IwAR0lGgXz9i6Ei-sZyJ_qlcZxLLtPTzBhyuDzozcW5yjak_EB62jIGF-4xqk" class="common-btn"><span></span>
+                Ulaznice
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <!--LINEUP-->
+    <section id="lineup">
+     
+        <div class="up">
+            <img src="images/lineup2.jpg">
+
+        <div class="down">
+            <a href="#" class="butn"><span></span>
+                Lineup
+            </a>
+            
+            <div class="lines-4">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+        
+    </section>
+
+     <!--RADIONICE-->
+     <section id="radionice">
+        <div class="icons">
+            <div class="Freediving">
+                <img src="images/freedivingr.png">
+                <h2>Freediving radionica</h2>
+                <p> Saša je freediving instruktor iz Zagreba i tijekom festivala će ponuditi male radionice pravilnog disanja i pripreme za ronjenje na dah. Polaznici radionica moći će u sigurnim uvjetima isprobati kako je to zaroniti u Veliko plavetnilo, a možda i dotaknuti neku svoju granicu.<br> Potrebno: maske, disalice i peraje. </p>
+            </div>
+            <div class="Keramika">
+                <img src="images/keramikar.jpg">
+                <h2>Radionica keramike za početnike</h2>
+                <p>Radionica keramike za početnike i sve one koji žele istraživati i igrati se s glinom. Radionicu će držati Mina Nenadović, koja će tokom trajanja festivala proći sa vama kroz osnovnu priču o fazama izrade keramike, a ovisno od želja sudionica i sudionika izrađivat će se vaze, šolje i razna čudesa iz snova. Radionica se održava 11-14 srpnja. Mjesta su ograničena. Prijave su potrebne za svaki dan pojedinačno, cijena je 10 kuna po danu.</p>
+            </div>
+            <div class="Pjevanje">
+                <img src="images/pjevanjer.jpg">
+                <h2>Radionice pjevanja</h2>
+                <p>Na TAM TAM Music Festivalu će se i ove godine održati radionice pjevanja i rada na glasu, otvorene za sve koji žele zapjevati i prodisati cijelim tijelom. Učit ćemo tradicijske pjesme ovih prostora, a i neke suvremenije, kamo god nas glas i duša odvedu.  Pridružite nam se u hladu festivalskog kampa i pustite da vas miluju cvrčci, šum mora i vaš vlastiti glas!
+                </p>
+            </div>
+            <div class="Sitotisak">
+                <img src="images/sitotisakr.jpg">
+                <h2>Radionice DIY sitotiska</h2>
+                <p>Osnove sitotiskanja su nešto što će vam super poslužiti ako namjeravate otisnut majce, cekere, prišivke za vaše projekte. Točno takva će biti i ova radionica, bez previše filozofiranja, samo boje i sita koja će predhodno biti pripremljena. Na radionici će neki tekstilni materijali biti osigurani ali jednako tako možete pripremiti i neke svoje majce ili štogod želite da vam se na to otisne motiv. Radionicu vodi Eva Badanjak koja se sitotiskom počela baviti u svrhu izrade mercha za bend ŽEN.
+                </p>
+            </div>
+            <h1> RADIONICE </h1>
+            <div class="Bilje">
+                <img src="images/biljer.jpg">
+                <h2>Radionica bilja</h2>
+                <p>Radionica prepoznavanje samoniklog aromatičnog bilja, destilacija eteričnog ulja i izrada prirodne kozmetike. Prvi dan radionice, uz vodstvo Marnela Tomića i podršku OPG Vitali natural products , polaznici će se upoznati sa samoniklim aromatičnim biljem Dalmacije (i otoka Hvara), te naučiti više o svakoj pojedinoj biljki i njihovoj uporabi.
+                    Nakon branja, u popodnevnim satima ćemo izdvojiti eterično ulje i cvjetnu vodicu na malom parnom destilatoru. Dobiveni proizvodi će nam biti osnova za izradu prirodne kozmetike planirane za drugi dan radionice. Svi polaznici na poklon dobit će proizvode izrađene tijekom radionice.
+                    Više o cijeni radionice i datumima ususret festivalu! </p>
+            </div>
+           
+            </div>
+        <div class="trial">
+            <div class="lines-3">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+            </div>  
+        
+        </div>
+        </div>
+   
+    <!--kamp-->
+    <section id="kamp">
+        <div class="limit-left">
+            <img src="images/kamp.jpg">
+        </div>
+        <div class="limit-right">
+            <h1>TAM TAM kamp</h1>
+            <span class="square"></span>
+            <p>TAM TAM kamp smješten je u gustu borovu šumicu na samoj obali kristalno čistog mora, kraj gradske plaže Česminice. U kampu postoji i sva potrebna infrastruktura, poput struje, vode, tuševa, toaleta i hlada. Sama blizina mora, borova šuma i mala pozornica osigurava uživanje i pokrivene osnovne potrebe svakog posjetitelja festivala.</p>
+            <a href="https://www.entrio.hr/event/tam-tam-music-festival-2022-10637?fbclid=IwAR0lGgXz9i6Ei-sZyJ_qlcZxLLtPTzBhyuDzozcW5yjak_EB62jIGF-4xqk" class="butn"><span></span>
+                Ulaznice
+            </a>
+            
+            <div class="lines-4">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+            </div>
+        </div>
+    </section>
+
+    <!--upute-->
+    <section id="upute">
+        <div class="cont-left">
+           
+               <h1>Kako do nas?</h1>
+               <span class="square"></span>
+               <p>Sućuraj se nalazi na istočnom kraju otoka Hvara. 
+                Najjednostavniji način za doći u Sućuraj je trajektom iz Drvenika (do kojeg voze busevi). Trajekt plovi 30 minuta, vozi 10 do 11 puta dnevno, a kada se ukaže potreba plovi i češće. Trajektno pristanište u Sućurju nalazi se uz sam centar mjesta.
+                Ako stižete autom, s autoceste A1 treba izaći na izlazu broj 29 (Zagvozd) te pratiti znakove za pravac Makarska. Nakon što se prođe kroz tunel sv. Ilija uključite se na Jadransku magistralu – D8, prolazite kroz Makarsku te vozite još 30 km. Drvenik je od izlaza Zagvozd udaljen 45 km. Ako se dolazi iz pravca Dubrovnika, Mostara ili Sarajeva, treba doći do Ploča te voziti još 25 km sjeverozapadno.
+                Do Sućurja se može doći i tako da se u Splitu uđe na trajekt za Stari Grad, a onda cestom vozi još 61 km, ali to je duži i skuplji put.
+                Vidimo se na Hvaru!</p>
+               <a href="https://www.jadrolinija.hr/hr/schedule/LineSearchResults/Index/2331744/2331795/23062022?fbclid=IwAR25QTc3TVNwoUWa5OiDHa109DsjIM7Ctjd9zqhNf8_M74gRlym9FOAw2yY" class="butn"><span></span>
+                   Plovidbeni red
+               </a>
+               
+               <div class="lines-4">
+                   <div class="line-1"></div><br>
+                   <div class="line-2"></div><br>
+                   <div class="line-3"></div> 
+               </div>
+           </div>
+            
+        </div>
+
+        <div class="cont-right">
+          <img src="images/upute.png">
+        </div>
+    </section>
+    
+    <!--footer-->
+
+    <section id="footer">
+        <hr>
+            <div class="content-right">
+                <div class="links-r">
+                    <div class="copy">
+                        <p>@2022<br>mariovlahovicek</p>
+                    </div>
+              
+                </div>                 
+            </div>                           
+        </div>
+    </section>
+    <!--social media-->
+    <nav id="social-media">
+        <ul>
+            <li><a href="https://www.facebook.com/TamTamMusicFestival"><img src="images/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/tamtam_music_festival/?hl=hr" ><img src="images/instagram.png"></a></li>
+            <li><a href="https://twitter.com/tamtamfestival" ><img src="images/twitter.png"></a></li>
+           
+        </ul>        
+    </nav>
+    
+</body>
+</html>
