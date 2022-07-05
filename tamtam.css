@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 #header {
     height: 100vh;
@@ -185,124 +186,27 @@ nav ul li a{
 }
 
 /*PONUDA*/
- 
-
- 
-.icons {
-    margin-right: 150px;
+.ikone {
+    background-color: #f6e165;
+    height: 720px;
+    text-align: center;
+}
+.slide {
+    margin-left: 70px;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;   
-    background: rgb(245, 240, 112) 
+    padding-top: 3%;
 }
-
-.icons h1{
-   text-align: center;
-   font-size: 35px;
-}
-
-#ponuda {
-    margin: auto;
-    align-items: center;
-}
-.ponuda-logo {
-    margin: 50px;
-    width: 900px;
-    height: 250px;
+.slide img{
+    max-width: 40%;
     
 }
-.koncerti {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;    
+.slide-text {
+    flex-basis: 60%;
+    right:0;
 }
-.koncerti p {
-    margin-left: 15%;
-    width: 200px;
-    display: block;
-    background-color: blanchedalmond;
+.slide-text h3 {
+    text-shadow: #fff;
 }
-.koncerti img {
-    max-width: 250px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,.6);   
-}
-.yoga p {
-    text-align: center;
-    max-width: 450px;
-    display: block;
-    background-color: blanchedalmond;
-}
-
-.radionice {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;   
-}
-
-.radionice img{
-    max-width: 250px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,.6);      
-}
-
-.tetoviranje {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-}
-
-.tetoviranje img{
-    max-width: 250px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,.6);   
-}
-
-.cirkus {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;   
-}
-
-.cirkus img{
-    max-width: 250px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,.6);      
-}
-
-.yoga {
-    flex-basis: 33%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-}
-
-.yoga img{
-    max-width: 250px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,.6);   
-}
-
-.koncerti p{
-    margin-top: 15px;
-    color: rgb(0, 0, 0);    
-}
-
-.radionice p {
-    margin-top: 15px;
-    color: rgb(0, 0, 0);
-}
-
-.yoga p {
-    margin-top: 15px;
-    color: rgb(0, 0, 0);
-}
-
-.tetoviranje p{
-    margin-top: 15px;
-    color: rgb(0, 0, 0);    
-}
-
-.cirkus p {
-    margin-top: 15px;
-    color: rgb(0, 0, 0);
-}
-
 button {
     display:block;
 }
@@ -363,7 +267,7 @@ button {
     align-items: center;
     flex-wrap: wrap;
     margin-left: 100px;
-    margin-bottom: 75px;
+    
     justify-content: space-around;    
 }
 
@@ -434,7 +338,7 @@ h1 {
     height: 17px;
 }
 
-/RADIONICE----/
+/*RADIONICE*/
 
 
 
@@ -448,7 +352,7 @@ h1 {
 }
 
 #radionice {
-    margin: auto;
+    
     align-items: center;
 }
 
@@ -721,6 +625,426 @@ h1 {
 
 .links-r {
     margin-top: 50px;
+}
+
+
+
+.butn {
+    font-weight: bold;
+    padding: 20px 50px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    background: transparent;
+    border: solid rgb(64, 167, 202);
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.butn span {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(64, 167, 202);
+    z-index: -1;
+    transition: 0.5s;    
+}
+
+.butn:hover span {
+    width: 100%;
+    height: 100%;
+    background:rgb(64, 167, 202);     
+}
+
+.butn:hover {
+    color: white;
+    z-index: 1;
+}
+
+
+
+
+#social-media {
+    
+    width: 50px;    
+    position: fixed;
+    top: 25%;
+    left: 0;
+}
+nav ul li a img {
+    width: 20px;
+}
+nav ul {
+    line-height: 5px;
+}
+
+@media only screen and (max-width: 770px){
+    #header {
+        background-image: none;        
+    }
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+       
+    }
+    .logo {
+        margin-top: 15px;
+        width: 70px;
+    }
+    .text-main {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 300px;
+        margin-bottom: 30px;
+              
+    }
+    .text-main h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        
+        line-height: 1.5;
+        letter-spacing: -1.2px;
+    }
+    .btn {
+        font-weight: bold;
+        padding: 15px 25px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 25%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color:black;
+        font-size: 12px;
+        background:#fff;
+        border: solid rgb(214, 140, 157);
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        text-align: center;      
+    }
+    #MenuBtn {
+        width: 40px;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        z-index: 2;
+        
+    }
+    nav ul li a img {
+        width: 15px; 
+        margin-top: -20px;
+        margin-left: -15px;
+        display: block;  
+    }
+    .left-col {
+        flex-basis: 100%;    
+    }
+    .left-col img {
+        width: 100%;
+    }
+    .right-col {
+        flex-basis: 100%;
+        text-align: right;
+        
+    }
+    .about-text {
+        display: inline-block;
+        max-width: 300px;
+        margin-right: 50px;   
+        text-align: right; 
+    }
+    .about-text h2 {
+        font-style: italic;
+    }
+    .about-text h3 {
+        font-style: italic;
+        color: rgb(159, 155, 155);
+        font-size: 90%
+    }
+    #freetrial {
+        margin: auto;
+    }
+    .learn-anywhere {
+        flex-basis: 100%;
+        text-align: center;
+        
+    }
+    .expert-teachers {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .unlimited-acces {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .learn-anywhere p{
+        margin-top: 15px;
+        color: rgb(159, 155, 155);    
+    }
+    .expert-teachers p {
+        margin-top: 15px;
+        color: rgb(159, 155, 155);
+    }
+    .unlimited-acces p {
+        margin-top: 15px;
+        color: rgb(159, 155, 155);
+    }
+    button {
+        display:block;
+    }
+    .trial {
+        margin-left:20px;
+        align-items: right;
+        flex-direction: column-reverse;
+        display:flex;
+        
+    }
+    .common-btn {
+        
+        flex-basis: 100%;
+        font-weight: bold;
+        padding: 20px 50px;
+        margin-top: 10px;
+        width: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+        background:#fff;
+        border: solid rgb(214, 140, 157);
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+                   
+    }
+    .lines-3 {
+        margin-top: 50px;
+        flex-basis: 100%;
+        text-align: right;
+        display: block; 
+        margin-right: 5px;
+        line-height: 0.5;
+        
+    }
+    #courses {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        flex-direction: column-reverse;
+       
+    }
+    .left {
+        margin-top: 20px;
+        flex-basis: 100%;
+    
+    }
+    .left h1 {
+        font-size: 35px;
+    }
+    .left p {
+        max-width: 270px;
+        margin-bottom: 70px;
+    }
+    .right {
+        
+        margin-right:80px;
+        flex-basis: 100%;
+    }
+    .right img { 
+              
+        width: 130%;
+    }
+    .butn {
+        font-weight: bold;
+        padding: 20px 50px;
+        margin-bottom: 30px;
+        width: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+        background: transparent;
+        border: solid rgb(214, 140, 157);
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+    }
+    #limitless {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+           
+    }
+    .limit-left {
+        flex-basis: 100%;
+    }
+    .limit-left img {
+        width:100%;
+    }
+    .limit-right {
+        padding-top: 50px;
+        width: 300px;
+        padding-right: 50px;
+        
+        flex-basis: 100%;
+      
+    }
+    .limit-right p { 
+        margin-left: 30px;   
+        margin-bottom: 70px;
+        box-sizing: border-box; 
+    }
+    .limit-right .lines-4 .line-1 {
+        width: 17px;
+        height: 17px;
+    }
+    #contacts {
+        padding: 100px 0px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 70px;
+        flex-direction: column-reverse;
+    }
+    .cont-right {
+        margin-right: 40px;
+        flex-basis: 100%;
+        align-items: right;
+    }
+    .cont-right img {
+        width: 100%;
+    }
+    .cont-left {
+        margin-top: 40px;
+        flex-basis: 100%;
+    }
+    .cont-left h1 {
+        margin-bottom: 25px;
+    }
+    
+    form {
+        max-width: 250px;
+        margin-right: 40px;
+    }
+    form input {
+        width: 100%;
+        padding: 12px 10px;
+        margin-bottom: 5px;
+        outline: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        border: 2px solid #fab3c4;
+    }
+    .signTrial {
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .signTrial a {       
+        width: 98%;        
+    }    
+    .signup-btn {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       
+        font-weight: bold;
+        padding: 20px 60px;
+     
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+        background: transparent;
+        border: solid rgb(214, 140, 157);
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+    }
+   
+    /*footermobile*/
+    #footer {
+        max-width: auto;
+        padding: 50px 70px 30px;
+    }
+    .content {
+        display:flex;
+        align-items: center; 
+        justify-content: space-between;  
+        flex-wrap: wrap; 
+    }
+    .content-left {
+        margin-top: 70px;
+        flex-basis: 100%;
+        
+    }
+    .content-right {
+        flex-basis: 100%;
+    }
+    .links {
+        text-align: center;
+        margin-top: -60px;
+        display:flex;
+        flex-direction: column;
+          
+        flex-wrap: wrap; 
+    }
+    .links h4 {
+        padding-top: 20px;
+        color: rgb(214, 140, 157);
+        padding-bottom: 5px;
+    }
+    .links a {
+        text-decoration: none;
+        font-size: smaller;
+        line-height: 10px;
+        color: grey;
+    }
+    .links-r {
+        
+        display:flex;
+         
+        justify-content: center;  
+        flex-wrap: wrap; 
+    }
+    .copy {
+        text-align: center;
+        padding-top: 100px;
+        font-weight: bold;
+    }
+    .logo-2 {
+        
+        padding: 0 15px 30px 35px;
+        width: 100px;
+    }
+    #social-media {
+        
+        width: 50px;    
+        position: fixed;
+        top: 25%;
+        left: 0;
+    }
+    nav ul li a img {
+        width: 20px;
+    }
+    nav ul {
+        line-height: 5px;
+    }
+    
+  
+
 }
 
 
