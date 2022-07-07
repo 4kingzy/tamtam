@@ -1,0 +1,72 @@
+.izvodaci {
+  background-color: rgb(177,235,255);
+  height: 720px;  
+  
+  max-width: 500%;
+}
+
+.slide {
+  position: absolute;
+  margin-left: 70px;
+  width: 100%;
+  padding-top: 4%;
+  
+}
+
+.slide img{ 
+  display: block;
+  float: left; 
+  position: relative;
+  max-width: 50%;  
+  box-shadow: 5px 10px 10px rgba(0,0,0,.6);
+  margin-right: 50px;
+}
+
+.slide-text {
+  margin: 150px;
+  margin-top: 190px;
+  max-width: 90%;  
+  text-align: center;
+}
+
+.slide-text h3 {
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #fff;
+  text-align: center;
+}
+
+.slide-text p {
+  text-shadow: 2px 2px 2px #fff;
+  font-style: oblique;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cycle-prev, .cycle-next {
+  position: absolute;
+  top: 30%;
+  font-size: 130%;
+  display: block;
+  background-color: rgba(0,0,0,.35);
+  color: #fff;
+  padding: 1px 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.cycle-next {
+  right: 0;
+}
+
+.izvodaci:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
